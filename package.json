@@ -1,0 +1,33 @@
+{
+	"name": "fastify-validatorjs",
+	"version": "1.0.0",
+	"description": "Fastify validation library inspired by Laravel's Validator",
+	"main": "validatorjs.js",
+	"types": "validatorjs.d.ts",
+	"repository": "git@github.com:erwinstone/fastify-validatorjs.git",
+	"author": "Erwin Stone <erwinstone@pm.me>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/erwinstone/fastify-validatorjs/issues"
+	},
+	"homepage": "https://github.com/erwinstone/fastify-validatorjs#readme",
+	"keywords": [
+		"fastify",
+		"validator",
+		"validatorjs",
+		"fastify-validatorjs",
+		"fastify validator",
+		"fastify laravel"
+	],
+	"dependencies": {
+		"@types/validatorjs": "^3.15.0",
+		"fastify-plugin": "^4.0.0",
+		"validatorjs": "^3.22.1"
+	},
+	"devDependencies": {
+		"fastify": "^4.3.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
