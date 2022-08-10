@@ -1,7 +1,7 @@
-import { FastifyPlugin } from 'fastify'
+import { FastifyPluginCallback } from 'fastify'
 import Validator from 'validatorjs'
 
-declare const fastifyValidatorjs: FastifyPlugin<>
+declare const fastifyValidatorjs: FastifyPluginCallback
 
 export default fastifyValidatorjs
 
